@@ -6,6 +6,7 @@ setup(
     description="A Python tool to convert normal product URLs to affiliate links.",
     author="Rishi Banota",
     packages=find_packages(),
+    py_modules=["main"],
     entry_points={
         'console_scripts': [
             'affiliate-converter=main:main',
