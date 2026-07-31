@@ -1,4 +1,7 @@
+from pathlib import Path
 from setuptools import setup, find_packages
+
+HERE = Path(__file__).resolve().parent
 
 setup(
     name="Affiliate-Links-Generator",
@@ -8,17 +11,12 @@ setup(
     packages=find_packages(),
     py_modules=["main"],
     entry_points={
-        'console_scripts': [
-            'affiliate-converter=main:main',
+        "console_scripts": [
+            "affiliate-converter=main:main",
         ],
     },
     python_requires=">=3.7",
-    long_description=open("README_pypi.md").read(),
+    long_description=(HERE / "README_pypi.md").read_text(encoding="utf-8"),
     long_description_content_type="text/markdown",
     url="https://github.com/rishibanota/Affiliate-Links-Generator",
-    project_urls={
-        "Bug Tracker": "https://github.com/rishibanota/Affiliate-Links-Generator/issues",
-        "Documentation": "https://github.com/rishibanota/Affiliate-Links-Generator#readme",
-        "Source Code": "https://github.com/rishibanota/Affiliate-Links-Generator",
-    },
 )
