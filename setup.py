@@ -13,7 +13,7 @@ setup(
         ],
     },
     python_requires=">=3.7",
-    long_description=open("README.md").read(),
+    long_description=open("README_pypi.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/rishibanota/Affiliate-Links-Generator",
     project_urls={
