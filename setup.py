@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="affiliate_link_converter",
-    version="0.1.0",
+    name="Affiliate-Links-Generator",
+    version="0.1.1",
     description="A Python tool to convert normal product URLs to affiliate links.",
     author="Rishi Banota",
     packages=find_packages(),
