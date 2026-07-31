@@ -13,4 +13,12 @@ setup(
         ],
     },
     python_requires=">=3.7",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
+    url="https://github.com/rishibanota/Affiliate-Links-Generator",
+    project_urls={
+        "Bug Tracker": "https://github.com/rishibanota/Affiliate-Links-Generator/issues",
+        "Documentation": "https://github.com/rishibanota/Affiliate-Links-Generator#readme",
+        "Source Code": "https://github.com/rishibanota/Affiliate-Links-Generator",
+    },
 )
