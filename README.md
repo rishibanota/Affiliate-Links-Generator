@@ -6,6 +6,9 @@
     <img src="https://img.shields.io/badge/GitHub-Repository-181717.svg?style=for-the-badge&logo=github" alt="GitHub Repository" />
   </a>
   <img src="https://img.shields.io/badge/Python-3.7+-blue.svg?style=for-the-badge&logo=python" alt="Python 3.7+" />
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="MIT License" />
+  </a>
   <img src="https://img.shields.io/badge/Maintenance-Active-success.svg?style=for-the-badge" alt="Active Maintenance" />
 </div>
 
@@ -130,6 +133,17 @@ Need a network that isn't supported yet? This tool is built to be highly extensi
 
 - **Python 3.7+**
 - No external dependencies required! Everything runs perfectly using the Python Standard Library. 
+
+---
+
+## 👥 Community & Governance
+
+We welcome contributions from everyone! Check out the links below to get involved:
+
+- 🤝 **[Contributing Guidelines](CONTRIBUTING.md)**: Learn how to set up your environment and add new provider integrations.
+- 📜 **[Code of Conduct](CODE_OF_CONDUCT.md)**: Our standards for maintaining a welcoming and inclusive community.
+- 🛡️ **[Security Policy](SECURITY.md)**: Guidelines for reporting security vulnerabilities responsibly.
+- 📄 **[License](LICENSE)**: This project is open-source and licensed under the **MIT License**.
 
 ---
 
